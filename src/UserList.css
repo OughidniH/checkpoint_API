@@ -1,0 +1,44 @@
+body {
+  background-color: rgba(160, 180, 250, 0.5);
+}
+
+.card {
+  box-shadow: 10px 14px 8px rgba(0, 0, 0, 0.5);
+  border-radius: 10px;
+  width: 300px;
+  height: 400px;
+  margin: auto;
+  text-align: center;
+  background-image: url("https://images.unsplash.com/photo-1527104412985-1321468125af?ixlib=rb-0.3.5&q=80&fm=jpg&crop=entropy&cs=tinysrgb&w=1080&fit=max&s=6558eb209a7e2825dd75482285e3daaf");
+}
+
+/*for the rounded image*/
+img {
+  border-radius: 50%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  height: 150px;
+  width: 150px;
+}
+.title {
+  color: #000000;
+  font-size: 20px;
+  font-weight: bold;
+}
+button {
+  border: none;
+  outline: 0;
+  display: inline-block;
+  padding: 8px;
+  color: white;
+  cursor: pointer;
+  width: 100%;
+  font-size: 18px;
+}
+a:hover {
+  opacity: 0.7;
+}
+.copyright:hover {
+  opacity: 0.5;
+}
